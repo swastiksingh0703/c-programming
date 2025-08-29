@@ -1,0 +1,10 @@
+# include <stdio .h>
+3
+4 int main () {
+5 int a, b, subtract ;
+6 printf (" Enter two numbers : ");
+7 scanf ("%d %d", &a, &b);
+8 subtract = a - b;
+9 printf (" Subtraction = %d\n", subtract );
+10 return 0;
+11 }
