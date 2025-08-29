@@ -1,0 +1,14 @@
+# include <stdio .h>
+3
+4 int main () {
+5 float R, area ;
+6
+7 printf (" Enter radius of circle : ");
+8 scanf ("%f", &R);
+9
+10 area = (22.0 / 7.0) * R * R;
+11
+12 printf (" Area of circle = %f\n", area );
+13
+14 return 0;
+15 }
