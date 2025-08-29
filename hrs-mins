@@ -1,0 +1,15 @@
+# include <stdio .h>
+3
+4 int main () {
+5 int hours ;
+6 int minutes ;
+7
+8 printf (" Enter hours : ");
+9 scanf ("%d", & hours );
+10
+11 minutes = hours * 60;
+12
+13 printf (" Minutes are : %d\n", minutes );
+14
+15 return 0;
+16 }
