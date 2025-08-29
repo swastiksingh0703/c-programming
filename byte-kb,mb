@@ -1,0 +1,19 @@
+# include <stdio .h>
+3
+4 int main () {
+5 float bytes , kb , mb , gb;
+6
+7 printf (" Enter size in bytes : ");
+6
+8 scanf ("%f", & bytes );
+9
+10 kb = bytes / 1024;
+11 mb = kb / 1024;
+12 gb = mb / 1024;
+13
+14 printf (" Size in KB = %f\n", kb);
+15 printf (" Size in MB = %f\n", mb);
+16 printf (" Size in GB = %f\n", gb);
+17
+18 return 0;
+19 }
