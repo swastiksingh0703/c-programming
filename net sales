@@ -1,0 +1,15 @@
+# include <stdio .h>
+3
+4 int main () {
+5 float gross , discount , net;
+6
+7 printf (" Enter gross sales : ");
+8 scanf ("%f", & gross );
+9
+10 discount = 0.10 * gross ;
+11 net = gross - discount ;
+12
+13 printf (" Net Sales = %f\n", net );
+14
+15 return 0;
+16 }
