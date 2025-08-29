@@ -1,0 +1,14 @@
+# include <stdio .h>
+3
+4 int main () {
+5 float kg , grams ;
+6
+7 printf (" Enter weight in kilograms : ");
+8 scanf ("%f", &kg);
+9
+10 grams = kg * 1000;
+11
+12 printf (" Weight in grams = %f\n", grams );
+13
+14 return 0;
+15 }
