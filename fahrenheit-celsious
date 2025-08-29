@@ -1,0 +1,15 @@
+# include <stdio .h>
+3
+4 int main () {
+5 float fahrenheit , celsius ;
+6
+7
+7 printf (" Enter temperature in Fahrenheit : ");
+8 scanf ("%f", & fahrenheit );
+9
+10 celsius = (5.0 / 9.0) * ( fahrenheit - 32) ;
+11
+12 printf (" Temperature in Celsius = %f\n", celsius );
+13
+14 return 0;
+15 }
