@@ -1,0 +1,17 @@
+# include <stdio .h>
+3
+4 int main () {
+5 float H, L, area ;
+6
+7 printf (" Enter height of triangle : ");
+8 scanf ("%f", &H);
+9
+10 printf (" Enter base length of triangle : ");
+11 scanf ("%f", &L);
+12
+13 area = (H * L) / 2;
+14
+15 printf (" Area of triangle = %f\n", area );
+16
+17 return 0;
+18 }
