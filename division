@@ -1,0 +1,11 @@
+# include <stdio .h>
+3
+4 int main () {
+5 int a, b;
+6 float divide ;
+7 printf (" Enter two numbers : ");
+8 scanf ("%d %d", &a, &b);
+9 divide = ( float )a / b;
+10 printf (" Answer = %.2 f\n", divide );
+11 return 0;
+12 }
