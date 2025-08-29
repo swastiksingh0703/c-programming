@@ -1,0 +1,17 @@
+# include <stdio .h>
+3
+4 int main () {
+5 float gross , allowance , deduction , net;
+6
+7 printf (" Enter gross salary : ");
+8 scanf ("%f", & gross );
+9
+10 allowance = gross * 0.10;
+11 deduction = gross * 0.03;
+12
+13 net = gross + allowance - deduction ;
+14
+15 printf (" Net Salary = %f\n", net );
+16
+17 return 0;
+18 }
