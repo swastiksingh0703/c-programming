@@ -1,0 +1,15 @@
+# include <stdio .h>
+3
+4 int main () {
+5 int rupees ;
+6 int dollars ;
+7
+8 printf (" Enter rupees : ");
+9 scanf ("%d", & rupees );
+10
+11 dollars = rupees / 48;
+12
+13 printf (" Dollars are : %d\n", dollars );
+14
+15 return 0;
+16 }
