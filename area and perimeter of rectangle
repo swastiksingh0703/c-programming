@@ -1,0 +1,19 @@
+# include <stdio .h>
+3
+4 int main () {
+5 float L, B, area , perimeter ;
+6
+7 printf (" Enter length of rectangle : ");
+8 scanf ("%f", &L);
+9
+10 printf (" Enter breadth of rectangle : ");
+11 scanf ("%f", &B);
+12
+13 area = L * B;
+14 perimeter = 2 * (L + B);
+15
+16 printf (" Area of rectangle = %f\n", area );
+17 printf (" Perimeter of rectangle = %f\n", perimeter );
+18
+19 return 0;
+20 }
