@@ -1,0 +1,10 @@
+# include <stdio .h>
+3
+4 int main () {
+5 int a, b, multiply ;
+6 printf (" Enter two numbers : ");
+7 scanf ("%d %d", &a, &b);
+8 multiply = a * b;
+9 printf (" Answer = %d\n", multiply );
+10 return 0;
+11 }
