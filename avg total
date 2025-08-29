@@ -1,0 +1,22 @@
+# include <stdio .h>
+3
+4 int main () {
+5 float s1 , s2 , s3 , total , average ;
+6
+7 printf (" Enter marks of subject 1: ");
+8 scanf ("%f", &s1);
+9
+10 printf (" Enter marks of subject 2: ");
+11 scanf ("%f", &s2);
+12
+13 printf (" Enter marks of subject 3: ");
+14 scanf ("%f", &s3);
+15
+16 total = s1 + s2 + s3;
+17 average = total / 3;
+18
+19 printf (" Total Marks = %f\n", total );
+20 printf (" Average Marks = %f\n", average );
+21
+22 return 0;
+23 }
