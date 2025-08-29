@@ -1,0 +1,22 @@
+# include <stdio .h>
+3
+4 int main () {
+5 int a, b, temp ;
+6
+7 printf (" Enter first number : ");
+8 scanf ("%d", &a);
+9
+10 printf (" Enter second number : ");
+11 scanf ("%d", &b);
+12
+13 printf (" Before swapping : a = %d, b = %d\n", a, b);
+14
+15 temp = a;
+12
+16 a = b;
+17 b = temp ;
+18
+19 printf (" After swapping : a = %d, b = %d\n", a, b);
+20
+21 return 0;
+22 }
