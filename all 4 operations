@@ -1,23 +1,23 @@
 include <stdio .h>
-3
-4 int main () {
-5 int a, b, c;
-2
-6 int sum , minus , multiply ;
-7 float divide ;
-8 printf (" Enter first number : ");
-9 scanf ("%d", &a);
-10 printf (" Enter second number : ");
-11 scanf ("%d", &b);
-12 printf (" Enter third number : ");
-13 scanf ("%d", &c);
-14 sum = a + b + c;
-15 minus = a - b - c;
-16 multiply = a * b * c;
-17 divide = ( float )a / b;
-18 printf (" Sum is: %d\n", sum );
-19 printf (" Minus is: %d\n", minus );
-20 printf (" Multiply is: %d\n", multiply );
-21 printf (" Divide (a/b) is: %.2 f\n", divide );
-22 return 0
+
+ int main () {
+ int a, b, c;
+
+ int sum , minus , multiply ;
+ float divide ;
+printf (" Enter first number : ");
+ scanf ("%d", &a);
+ printf (" Enter second number : ");
+ scanf ("%d", &b);
+ printf (" Enter third number : ");
+ scanf ("%d", &c);
+ sum = a + b + c;
+ minus = a - b - c;
+ multiply = a * b * c;
+ divide = ( float )a / b;
+ printf (" Sum is: %d\n", sum );
+ printf (" Minus is: %d\n", minus );
+ printf (" Multiply is: %d\n", multiply );
+ printf (" Divide (a/b) is: %.2 f\n", divide );
+ return 0
 }
