@@ -1,17 +1,17 @@
-# include <stdio .h>
-3
-8
-4 int main () {
-5 float L, area , perimeter ;
-6
-7 printf (" Enter side length of square : ");
-8 scanf ("%f", &L);
-9
-10 area = L * L;
-11 perimeter = 4 * L;
-12
-13 printf (" Area of square = %f\n", area );
-14 printf (" Perimeter of square = %f\n", perimeter );
-15
-16 return 0;
-17 }
+#include <stdio.h>
+
+
+ int main () {
+ float L, area , perimeter ;
+
+ printf (" Enter side length of square : ");
+ scanf ("%f", &L);
+
+ area = L * L;
+ perimeter = 4 * L;
+
+ printf (" Area of square = %f\n", area );
+ printf (" Perimeter of square = %f\n", perimeter );
+
+ return 0;
+ }
